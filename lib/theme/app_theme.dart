@@ -70,7 +70,8 @@ class AppTheme {
         selectedItemColor: primary,
         unselectedItemColor: textTertiary,
         type: BottomNavigationBarType.fixed,
-        showLabels: false,
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         elevation: 0,
       ),
       cardTheme: const CardTheme(
